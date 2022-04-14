@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="click" onclick="demo()">
+<p id="demo1"></p>
+<script>
+    function demo() {
+        let text = "";
+        let i;
+        for (let i = 0; i < 5; i++) {
+            text += 'The number is ' + i + '</br>';
+        }
+        document.getElementById("demo1").innerHTML = text;
+    }
+</script>
+</body>
+</html>
